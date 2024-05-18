@@ -23,7 +23,7 @@ Title: Star Wars Millennium Falcon
   {#await gltf}
     <slot name="fallback" />
   {:then gltf}
-    <T.Group rotation={[-Math.PI / 2, 0, 0]}>
+    <T.Group rotation={[-Math.PI / 2, 19, -120]}>
       <T.Mesh geometry={gltf.nodes.Object_2.geometry} material={gltf.materials.millennium} />
       <T.Mesh geometry={gltf.nodes.Object_3.geometry} material={gltf.materials.millennium} />
       <T.Mesh geometry={gltf.nodes.Object_4.geometry} material={gltf.materials.millennium} />

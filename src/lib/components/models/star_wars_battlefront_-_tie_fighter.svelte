@@ -23,7 +23,7 @@ Title: Star Wars Battlefront - TIE Fighter
   {#await gltf}
     <slot name="fallback" />
   {:then gltf}
-    <T.Group rotation={[-Math.PI / 2, 0, 0]}>
+    <T.Group rotation={[-Math.PI / -2, -3, 5]}>
       <T.Mesh geometry={gltf.nodes.Object_2.geometry} material={gltf.materials['Shape.013']} />
       <T.Mesh geometry={gltf.nodes.Object_3.geometry} material={gltf.materials['Shape.014']} />
     </T.Group>
